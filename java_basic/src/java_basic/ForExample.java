@@ -3,16 +3,11 @@ package java_basic;
 import static java.lang.System.out;
 import java.util.Scanner;
 
-import com.java.dto.ScoreVO;
-
 public class ForExample {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		ScoreVO s = new ScoreVO("alice", 41, 57, 60, 72);
-		
-		out.println(s.getAvg());
 
 //		out.print("정수 입력 : ");
 //		int num = sc.nextInt();

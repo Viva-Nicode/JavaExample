@@ -1,10 +1,10 @@
-package java_basic;
+package com.java.quiz;
 
-import java.util.Scanner;
 import static java.lang.System.out;
 
-public class Quese {
+import java.util.Scanner;
 
+public class Quiz_1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int inputInt = 6485;
@@ -23,7 +23,7 @@ public class Quese {
 		out.println("3자리 숫자 : " + num_2);
 		out.println("2자리 숫자 : " + num_3);
 		out.println("1자리 숫자 : " + num_4);
-		
+
 //		float inputFloat = 0.001f * inputInt;
 //		out.println((int)inputFloat);
 //		out.println((int)((inputFloat - (float)((int)inputFloat)) * 10));

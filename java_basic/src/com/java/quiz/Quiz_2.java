@@ -1,11 +1,10 @@
-package java_basic;
-
-import java.util.Scanner;
+package com.java.quiz;
 
 import static java.lang.System.out;
 
-public class Quese2 {
+import java.util.Scanner;
 
+public class Quiz_2 {
 	public static void main(String[] args) {
 
 		int p = 0;

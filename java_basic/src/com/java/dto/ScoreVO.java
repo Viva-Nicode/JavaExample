@@ -1,11 +1,11 @@
 package com.java.dto;
 
 public class ScoreVO {
-	private String name;
-	private int kor;
-	private int eng;
-	private int math;
-	private int sci;
+	public String name;
+	public int kor;
+	public int eng;
+	public int math;
+	public int sci;
 
 	public ScoreVO(String name, int kor, int eng, int math, int sci) {
 		this.name = name;
@@ -13,6 +13,9 @@ public class ScoreVO {
 		this.eng = eng;
 		this.math = math;
 		this.sci = sci;
+	}
+
+	public ScoreVO() {
 	}
 
 	public int getTotal() {
@@ -23,7 +26,11 @@ public class ScoreVO {
 		return this.getTotal() / 4.0f;
 	}
 
-	public String getName() {
-		return name;
+	@Override
+	public String toString() {
+		return name + "\t" + kor + "\t" + eng + "\t" + math + "\t" + sci + "\t" + getTotal() + "\t" + getAvg();
 	}
+
 }
+
+//삼각형 사각형 원의 넓이를 선택해서 구하는 프로그램 작성.
