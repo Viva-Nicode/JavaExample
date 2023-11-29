@@ -19,21 +19,21 @@ public class ShapeMain {
 			System.out.println(String.format("키 -> %s, 값 -> %s", key, value));
 		});
 		out.println("============================================");
-		// 2번
+
 		Iterator<Integer> keys = m.keySet().iterator();
 		while (keys.hasNext()) {
 			int key = keys.next();
 			System.out.println(String.format("키 -> %s, 값 -> %s", key, m.get(key)));
 		}
 		out.println("============================================");
-		// 3번
-		for (Map.Entry<Integer, String> elem : m.entrySet()) {
+
+		for (Map.Entry<Integer, String> elem : m.entrySet())
 			System.out.println(String.format("키 -> %s, 값 -> %s", elem.getKey(), elem.getValue()));
-		}
+
 		out.println("============================================");
-		// 4번
-		for (int key : m.keySet()) {
+
+		for (int key : m.keySet())
 			System.out.println(String.format("키 -> %s, 값 -> %s", key, m.get(key)));
-		}
+
 	}
 }
